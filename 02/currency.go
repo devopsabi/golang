@@ -34,7 +34,7 @@ type INR struct {
 	Name string  `json:"name"`
 }
 
-// Here we create a struct for USD which will has rate and name field.
+// Here we create a struct for USD which will have rate and name field.
 
 type USD struct {
 	Rate float64 `json:"rate"`
