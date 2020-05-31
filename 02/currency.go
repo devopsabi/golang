@@ -27,7 +27,7 @@ type Response struct {
 }
 
 // "name":"Indian Rupee","rate":84.064779503976
-// Now lets create a struct for INR which will has rate and name field.
+// Now lets create a struct for INR which will have rate and name field.
 
 type INR struct {
 	Rate float64 `json:"rate"`
